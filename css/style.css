@@ -21,8 +21,11 @@ body {
     background-color: #ff6900;
     height: 70px;
     position: fixed;
+    top: 0;
+    left: 0;
     font-weight: 600;
     box-shadow: 0px 0.1px 3px #000000;
+    z-index: 1;
 }
 
 .mainbar-nav {
@@ -64,6 +67,119 @@ body {
 .mainbar-nav-center > img {
     height: 50%;
 }
+
+.mainbox {
+    width: 70%;
+    height: 1200px;
+    margin: auto;
+    margin-top: 130px;
+    z-index: 0;
+}
+
+.firstline, .secondline {
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.boximg {
+    width: 32%;
+    height: 100%;
+    position: relative;
+}
+
+.boximg img {
+    height: 100%;
+    width: 100%;
+}
+
+.secondline {
+    margin-top: 100px;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.debug .leftbox {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: red;
+    font-size: 14px;
+    padding: 3px 8px;
+    font-weight: 600;
+    color: white;
+}
+
+.debug .leftbox div {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
