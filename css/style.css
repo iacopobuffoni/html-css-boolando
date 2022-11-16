@@ -8,6 +8,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
 .white {
     color: white;
 }
@@ -110,29 +118,51 @@ body {
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
-.debug .leftbox {
+.leftbox {
     position: absolute;
     left: 0;
     bottom: 40px;
-    background-color: red;
     font-size: 14px;
-    padding: 3px 8px;
     font-weight: 600;
     color: white;
 }
 
-.debug .leftbox div {
+.boxcontent {
     display: inline-block;
+    padding: 3px 8px;
 }
+
+.normaltext {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.bigtext {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.number {
+    display: inline-block;
+    font-weight: 500;
+    color: red;
+    font-size: 15px;
+}
+
+.canceled {
+    text-decoration: line-through;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
