@@ -78,7 +78,6 @@ body {
 
 .mainbox {
     width: 70%;
-    height: 1200px;
     margin: auto;
     margin-top: 130px;
     z-index: 0;
@@ -102,7 +101,7 @@ body {
 }
 
 .secondline {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .heart {
@@ -121,7 +120,7 @@ body {
 .leftbox {
     position: absolute;
     left: 0;
-    bottom: 40px;
+    bottom: 100px;
     font-size: 14px;
     font-weight: 600;
     color: white;
@@ -164,7 +163,11 @@ body {
 
 
 
-
+.debug .endbar {
+    margin-top: 40px;
+    height: ;
+    background-color: #1a1a1a;
+}
 
 
 
