@@ -24,6 +24,10 @@ body {
     display: flex;
 }
 
+.inlineblock {
+    display: inline-block;
+}
+
 .mainbar {
     width: 100%;
     background-color: #ff6900;
@@ -36,7 +40,7 @@ body {
     z-index: 1;
 }
 
-.mainbar-nav {
+.mainbar-nav, .endbar-nav {
     width: 70%;
     margin: auto;
     height: 100%;
@@ -60,7 +64,7 @@ body {
     align-items: center;
 }
 
-.mainbar-nav-left > ul {
+.mainbar-nav-left > ul, .endbar ul {
     list-style: none;
 }
 
@@ -68,8 +72,12 @@ body {
     padding: 5px;
 }
 
-.mainbar-nav-left > ul > li > a {
+.mainbar-nav-left > ul > li > a, .endbar a {
     text-decoration: none;
+}
+
+.mainbar-nav-left > ul > li > a:hover , .endbar-nav-left > ul > li > a:hover {
+    text-decoration: underline;
 }
 
 .mainbar-nav-center > img {
@@ -95,8 +103,12 @@ body {
     position: relative;
 }
 
-.boximg img {
+.boximg .img1 {
     height: 100%;
+    width: 100%;
+}
+
+.boximg .img2 {
     width: 100%;
 }
 
@@ -153,21 +165,78 @@ body {
     font-weight: 300;
 }
 
-
-
-
-
-
-
-
-
-
-
-.debug .endbar {
-    margin-top: 40px;
-    height: ;
-    background-color: #1a1a1a;
+.endbar {
+    background-color: black;
+    height: 100px;
+    margin-top: 50px;
 }
+
+.endbar-nav-left {
+    width: 50%;
+}
+
+.endbar-nav-right {
+    width: 50%;
+    text-align: right;
+}
+
+.endbar-nav-left > h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.endbar-nav-right > h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.img2 {
+    display: none;
+}
+
+.boximg:hover .img1 {
+    display: none;
+}
+
+.boximg:hover .img2 {
+    display: inline-block;
+}
+
+.endbar-nav-right > a > i {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
